@@ -1,4 +1,37 @@
-# Challenge Information App 
+# Information App
+
+Flutter information-app study with a local design-system package, MobX state management and dependency injection.
+
+## Project scope
+
+A study or technical-challenge implementation from its original development period. It is shared as a portfolio reference; the original implementation and commit history are preserved.
+
+## Stack and SDK
+
+- Flutter and Dart.
+- Main declared packages: `design_system`, `http`, `get_it`, `equatable`, `uuid`, `mobx`, `flutter_mobx`, `google_fonts`, `shared_preferences`, `url_launcher`.
+- Dart SDK constraint from `pubspec.yaml`: `>=3.1.5 <4.0.0`.
+
+Use a Flutter release with a Dart SDK inside that range. Dependency modernization is a separate change from publishing this historical example.
+
+## Run
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Tests
+
+The repository contains 3 Dart test files matching `*_test.dart`. Run the existing suite with a compatible SDK:
+
+```bash
+flutter test
+```
+
+Test files are learning artifacts; their presence is not a claim that they have passed on a current Flutter release.
+
+## Original project notes
 
 ## Layout
 
@@ -51,3 +84,7 @@ Baseado no sistema de rotas do Modular e Nuvigator, apliquei um padrão de siste
 ## Testes Unitários 
 
 Para verificar o comportamento das unidades na aplicação e manter um desenvolvimento conciso e com maior quantidade de tratamento de erros e exceções apliquei testes unitários utilizando mocks para não criar dependência de dados externos.
+
+## Attribution
+
+Original project notes and any third-party credits are retained. Third-party services, assets and dependencies remain subject to their respective terms and licenses.
